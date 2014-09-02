@@ -8,14 +8,14 @@
     "link": ""
   },
   "text": {
-    "title": "FSW_test",
-    "more": "",
-    "intro": "An interactive visualization of keywords related to crowdsourcing based on arxiv API"
+    "title": "Department collaboration",
+    "more": "Gegevens gebaseerd op METIS resultaten 2013 geclassificeerd als wetenschappelijk.\nRelaties zijn gebaseerd op publicaties waarin medewerkers van beide departementen voor zijn gekomen. \nKleuren zijn gebaseerd op een inductieve herkenning van clusters waarbinnen meer wordt samengewerkt dan erbuiten.\n",
+    "intro": "Samenwerking tussen VU departementen gebaseerd op gezamelijke publicaties 2013"
   },
   "legend": {
     "edgeLabel": "Keywords which share authors",
     "colorLabel": "Module membership",
-    "nodeLabel": "Keyword"
+    "nodeLabel": "Department"
   },
   "features": {
     "search": true,
@@ -29,9 +29,9 @@
   "sigma": {
     "graphProperties": {
       "minEdgeSize": 1.0,
-      "maxNodeSize": 12,
+      "maxNodeSize": 15,
       "maxEdgeSize": 2.0,
-      "minNodeSize": 5
+      "minNodeSize": 3
     },
     "drawingProperties": {
       "labelThreshold": 0,
