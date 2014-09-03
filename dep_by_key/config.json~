@@ -9,11 +9,11 @@
   },
   "text": {
     "title": "Department collaboration",
-    "more": "Gegevens gebaseerd op METIS resultaten 2013 geclassificeerd als wetenschappelijk.\nRelaties zijn gebaseerd op publicaties waarin medewerkers van beide departementen voor zijn gekomen. \nKleuren zijn gebaseerd op een inductieve herkenning van clusters waarbinnen meer wordt samengewerkt dan erbuiten.\n",
-    "intro": "Samenwerking tussen VU departementen gebaseerd op gezamelijke publicaties 2013"
+    "more": "Gegevens gebaseerd op METIS resultaten 2013 geclassificeerd als wetenschappelijk.\nRelaties zijn gebaseerd op overeenkomst in woorden binnen de titel van publicaties (keywords waren niet beschikbaar).\nKleuren zijn gebaseerd op een inductieve herkenning van clusters waarbinnen meer wordt samengewerkt dan erbuiten.\n",
+    "intro": "Samenwerking tussen VU departementen gebaseerd op het gebruik van dezelfde woorden in de titel van publicaties"
   },
   "legend": {
-    "edgeLabel": "Keywords which share authors",
+    "edgeLabel": "Shared keywords",
     "colorLabel": "Module membership",
     "nodeLabel": "Department"
   },
@@ -28,13 +28,13 @@
   },
   "sigma": {
     "graphProperties": {
-      "minEdgeSize": 1.0,
-      "maxNodeSize": 15,
-      "maxEdgeSize": 15.0,
-      "minNodeSize": 3
+      "minEdgeSize": 0.2,
+      "maxNodeSize": 7,
+      "maxEdgeSize": 0.5,
+      "minNodeSize": 1
     },
     "drawingProperties": {
-      "labelThreshold": 0,
+      "labelThreshold": 10,
       "hoverFontStyle": "bold",
       "defaultEdgeType": "curve",
       "defaultLabelColor": "#000",
